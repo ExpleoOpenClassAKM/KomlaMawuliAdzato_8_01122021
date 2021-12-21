@@ -1,0 +1,48 @@
+@import '../styles/Collapsible.css';
+@import '../styles/ApartmentRating.css';
+
+.apartment-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2rem 4rem;
+}
+
+.apartment-box {
+    max-width: calc(100%-16rem);
+    margin-top: 0;
+    margin-right: 1.6rem;
+    margin-bottom: 0;
+    margin-left: 1.6rem;
+}
+
+.apartment-boxAside {
+    width: 12rem;
+}
+
+.apartment-collapsible {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.apartment-collapsible .collapsible-visible,
+.apartment-collapsible .collapsible-content {
+    max-width: 36.5rem;
+    text-align: justify;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.apartment-tagsBox {
+    margin: 1rem 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    .apartment-box  {
+        margin-left: 0rem; 
+    }
+}

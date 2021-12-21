@@ -1,0 +1,13 @@
+@import '../styles/Collapsible.css';
+@import '../styles/AboutBanner.css';
+
+@media (min-width: 651px) and (max-width: 1200px) { 
+    .about-banner .collapsible-article {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .collapsible-article .collapsible-visible {
+        width: 100%;
+    }
+}

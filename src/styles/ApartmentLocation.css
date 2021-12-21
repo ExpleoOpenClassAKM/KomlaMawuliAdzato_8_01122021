@@ -1,0 +1,11 @@
+.ApartmentLocation {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .ApartmentLocation {
+        font-size: 0.9rem;
+    }
+}

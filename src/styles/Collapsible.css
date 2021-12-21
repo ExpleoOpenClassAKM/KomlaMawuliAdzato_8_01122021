@@ -1,0 +1,97 @@
+.collapsible {
+    margin: 2rem 4rem;
+}
+
+.collapsible-article {
+    max-width: 64rem;
+    margin: 2rem auto;
+}
+
+.isClosed {
+    display: none;
+}
+
+.collapsible-visible {
+    cursor: pointer;
+    width: 63.5rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6060;
+    color: #FFF;
+    padding-right: 0.5rem;
+   
+}
+
+.collapsible-visible > h3 {
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+    margin: 0;
+    color: #FFF;
+}
+
+.collapsibleVisible > .fa-chevron-down {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    
+}
+
+.collapsible-content {
+    max-width: 64rem;
+    height: auto;
+    border-radius: 0.3rem;
+    background: #F6F6F6;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    color: #FF6060;
+}
+
+.collapsible-content > p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.collapsible-Content > p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 2rem;
+    color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .collapsible-article {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .collapsible-visible {
+        height: 1.9rem;
+        width: 100%;
+    }
+
+    .collapsible-visible > h3 {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .collapsible-visible > .fa-chevron-down {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .collapsible-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .collapsible-content > p {
+        font-size: 0.75rem;
+    }
+}

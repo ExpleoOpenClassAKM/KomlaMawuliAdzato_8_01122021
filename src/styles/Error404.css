@@ -1,0 +1,40 @@
+.error404 {
+    text-align: center;
+}
+
+.error404-ShowStatusCode {
+    font-size: 18rem;
+    font-weight: 700;
+    margin: 8rem 0 4rem;
+}
+
+.error404-linkToHome {
+    display: inline-block;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    margin: 8rem 0;
+}
+
+.error404-ShowStatusText {
+    font-size: 1.25rem;
+}
+
+.error404-ShowStatusCode, .error404-linkToHome, .error404-ShowStatusText {
+    color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .error404-ShowStatusCode {
+        font-size: 6rem;
+        margin: 8rem 0 1rem;
+    }
+
+    .error404-linkToHome {
+        font-size: 0.9rem;
+        margin: 4rem 0;
+    }
+
+    .error404-ShowStatusText {
+        font-size: 1rem;
+    }
+}

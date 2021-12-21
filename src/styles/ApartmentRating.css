@@ -1,0 +1,20 @@
+.fa-star {
+    font-size: 1.5rem;
+    color: #E3E3E3;
+}
+
+.fa-star.colored {
+    color: #FF6060;
+}
+
+.apartment-rating {
+    text-align: right;
+    margin: 1.5rem 0 0;
+}
+
+@media screen and (max-width: 650px) {
+    .fa-star,
+    .fa-star.colored {
+        font-size: 1rem;
+    }
+}

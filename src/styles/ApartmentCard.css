@@ -1,0 +1,144 @@
+.apartmentCard {
+    background-color: #F6F6F6;
+    margin: 2rem 3rem;
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 1.5rem;
+}
+
+.apartment-box {
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.apartment-box > h2 {
+    position: absolute;
+    width: 20rem;
+    height: 3.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    left: 1rem;
+    bottom: 1.5rem;
+    line-height: 150%;
+}
+
+.apartment-img {
+    width: 23.45rem;
+    height: 22rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentCard {
+        background-color: #FFF;
+        margin: 2rem;
+        padding: 0;
+        max-width: 650px;
+        justify-content: center;
+    }
+
+    .apartment-card {
+        width: 100%;
+    }
+
+    .apartment-box > img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .apartment-box > h2 {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        height: 4.5rem;
+        width: 15rem;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 900px) {
+    .apartmentCard {
+        background-color: #FFF;
+        margin: 2rem;
+        padding: 0;
+        max-width: 900px;
+        justify-content: center;
+    }
+
+    .apartment-card {
+        width: 90%;
+    }
+
+    .apartment-box > img {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .apartment-box > h2 {
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+        height: 4.5rem;
+        width: 30rem;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .apartmentCard {
+        background-color: #FFF;
+        margin: 2rem;
+        margin-left: 2.5rem;
+        margin-right: 5.5rem;
+        padding: 0;
+        max-width: 1300px;
+        justify-content: space-between;
+    }
+
+    .apartment-card {
+        width: 48%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .apartment-box > img {
+        width: 100%;
+        height: 22.5rem;
+    }
+
+    .apartment-box > h2 {
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+        height: 4.5rem;
+        width: 20rem;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1439px) {
+    .apartmentCard {
+        background-color: #f7f7f7;
+        margin: 2rem 3rem;  
+        max-width: 1439px;
+        justify-content: flex-start;
+    }
+
+    .apartment-card {
+        width: 30%;
+        margin-right: 2rem;
+    }
+
+    .apartment-box > img {
+        width: 100%;
+        height: 22.5rem;
+    }
+
+    .apartment-box > h2 {
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+        height: 4.5rem;
+        width: 20rem;
+    }
+}

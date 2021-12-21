@@ -1,0 +1,58 @@
+.carousel-article {
+    position: relative;
+    margin: 0 4rem;
+}
+
+.carousel-counter {
+    position: absolute;
+    width: 100%;
+    bottom: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.carousel-nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-pictures {
+    width: 100%;
+    height: 25.9rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    cursor: pointer;
+    font-size: 5rem;
+    margin: 1.5rem;
+    color: #FFF;
+    text-shadow: 0 0 2px #000;
+}
+
+@media screen and (max-width: 650px) {
+    .carousel-article {
+        margin: 0 2rem;
+    }
+
+    .carousel-counter {
+        bottom: 1rem;
+    }
+
+    .carousel-pictures {
+        height: 16rem;
+        border-radius: 0.6rem;
+    }
+
+    .fa-chevron-right,
+    .fa-chevron-left {
+        font-size: 1.5rem;
+    }
+}
